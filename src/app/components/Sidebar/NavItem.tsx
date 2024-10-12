@@ -1,5 +1,5 @@
 import { ElementType } from 'react'
-import { ChevronDown, Home } from 'lucide-react'
+import { ChevronDown } from 'lucide-react'
 
 export interface NavItemProps {
   title: string
