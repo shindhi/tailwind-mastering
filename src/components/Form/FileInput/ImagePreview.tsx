@@ -1,5 +1,6 @@
 'use client'
 
+import { useMemo } from 'react'
 import { User } from 'lucide-react'
 import { useFileInput } from './Root'
 

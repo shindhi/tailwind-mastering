@@ -1,8 +1,8 @@
 import { Mail } from 'lucide-react'
 
-import { SettingsTabs } from './components/SettingsTabs'
-import * as Input from './components/Input'
-import * as FileInput from './components/Form/FileInput'
+import { SettingsTabs } from '../components/SettingsTabs'
+import * as Input from '../components/Input'
+import * as FileInput from '../components/Form/FileInput'
 
 export default function Home() {
   return (
@@ -147,6 +147,7 @@ export default function Home() {
             </label>
             <FileInput.Root>
               <FileInput.Trigger />
+              <FileInput.FileList />
               <FileInput.Control multiple />
             </FileInput.Root>
           </div>
