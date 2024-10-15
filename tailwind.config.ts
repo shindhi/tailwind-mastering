@@ -13,6 +13,9 @@ const config: Config = {
         6: '6px',
       },
       colors: {
+        violet: {
+          25: '#fcfaff',
+        },
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
