@@ -10,13 +10,15 @@ export function Profile() {
         alt=""
       />
       <div className="flex flex-col truncate">
-        <span className="text-sm font-semibold text-zinc-700">Diogo Naka</span>
-        <span className="truncate text-sm text-zinc-500">
+        <span className="block text-sm font-semibold text-zinc-700">
+          Diogo Naka
+        </span>
+        <span className="block truncate text-sm text-zinc-500">
           diogoshindhinaka@gmail.com
         </span>
       </div>
 
-      <Button type="button" variant="ghost">
+      <Button type="button" className="ml-auto" variant="ghost">
         <LogOut className="h-5 w-5 text-zinc-500" />
       </Button>
     </div>
