@@ -10,10 +10,10 @@ export function Profile() {
         alt=""
       />
       <div className="flex flex-col truncate">
-        <span className="block text-sm font-semibold text-zinc-700">
+        <span className="block text-sm font-semibold text-zinc-700 dark:text-zinc-100">
           Diogo Naka
         </span>
-        <span className="block truncate text-sm text-zinc-500">
+        <span className="block truncate text-sm text-zinc-500 dark:text-zinc-400">
           diogoshindhinaka@gmail.com
         </span>
       </div>
